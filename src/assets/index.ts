@@ -18,6 +18,11 @@ import PythonImage from "./python.svg";
 
 import ProfileImage from "./profile.png";
 
+import PortfolioImage from "./Projects/portfolio.png";
+import BookmarkManagerImage from "./Projects/bookmark-manager.png";
+import AddressBookImage from "./Projects/address-book.png";
+import ImageGalleryImage from "./Projects/image-gallery.png";
+
 // Define types for the imported images if needed
 type ImageType = string;
 
@@ -39,3 +44,8 @@ export const Javascript: ImageType = JavascriptImage;
 export const Python: ImageType = PythonImage;
 
 export const Profile: ImageType = ProfileImage;
+
+export const Portfolio: ImageType = PortfolioImage;
+export const BookmarkManager: ImageType = BookmarkManagerImage;
+export const AddressBook: ImageType = AddressBookImage;
+export const ImageGallery: ImageType = ImageGalleryImage;

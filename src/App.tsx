@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Works from "./components/Works";
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState<boolean>(true);
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -29,6 +30,9 @@ const App: React.FC = () => {
             <Header />
           </section>
         </div>
+        <section className="w-full bg-[#061130] py-20 ">
+          <Works />
+        </section>
       </div>
     </div>
   );
