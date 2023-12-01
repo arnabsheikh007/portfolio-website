@@ -1,4 +1,12 @@
-import { Mongodb, Nodejs, Profile, Reactjs, Redux } from "../assets";
+import {
+  Angular,
+  Laravel,
+  Mongodb,
+  Nodejs,
+  Profile,
+  Reactjs,
+  Redux,
+} from "../assets";
 const Header = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-4 md:px-10 gap-10 2xl:gap-20 py-20">
@@ -81,6 +89,14 @@ const Header = () => {
             <img
               src={Nodejs}
               className="absolute bottom-7 right-3 md:bottom-10 2xl:right-12 w-12 h-12 md:w-16 md:h-16"
+            />
+            <img
+              src={Laravel}
+              className="absolute top-[-50px] left-1/2 transform -translate-x-1/2 w-12 h-12 md:w-16 md:h-16"
+            />
+            <img
+              src={Angular}
+              className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 w-12 h-12 md:w-16 md:h-16"
             />
           </div>
         </div>
