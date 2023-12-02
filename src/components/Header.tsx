@@ -7,7 +7,7 @@ import {
   Reactjs,
   Redux,
 } from "../assets";
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-4 md:px-10 gap-10 2xl:gap-20 py-20">
       <div

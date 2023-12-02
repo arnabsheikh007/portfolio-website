@@ -1,6 +1,6 @@
 import { CPStats, tools } from "../data";
 
-const Works = () => {
+const Works: React.FC = () => {
   return (
     <div>
       <h1 className="text-3xl text-center 2xl:text-7xl font-extrabold text-neutral-100 tracking-wider">
