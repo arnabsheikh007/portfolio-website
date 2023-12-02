@@ -3,7 +3,7 @@ import { CPStats, tools } from "../data";
 const Works = () => {
   return (
     <div>
-      <h1 className="text-3xl text-center 2xl:text-7xl font-extrabold text-black dark:text-neutral-100 tracking-wider">
+      <h1 className="text-3xl text-center 2xl:text-7xl font-extrabold text-neutral-100 tracking-wider">
         Competitive Programming and Problem Solving
       </h1>
       <div
@@ -24,7 +24,7 @@ const Works = () => {
           </div>
         ))}
       </div>
-      <h1 className="text-3xl text-center 2xl:text-7xl font-extrabold text-black dark:text-neutral-100 tracking-wider mt-8">
+      <h1 className="text-3xl text-center 2xl:text-7xl font-extrabold text-neutral-100 tracking-wider mt-8">
         Development Tools
       </h1>
       <div

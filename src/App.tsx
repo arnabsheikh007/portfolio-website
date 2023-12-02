@@ -3,6 +3,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Works from "./components/Works";
+import About from "./components/About";
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState<boolean>(true);
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -32,6 +33,12 @@ const App: React.FC = () => {
         </div>
         <section className="w-full bg-[#061130] py-20 ">
           <Works />
+        </section>
+        <section
+          id="about"
+          className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
+        >
+          <About />
         </section>
       </div>
     </div>

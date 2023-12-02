@@ -37,10 +37,10 @@ export const CPStats = [
 ];
 
 export const tools = [
-  {
-    name: "MongoDB",
-    icon: Mongodb,
-  },
+  //   {
+  //     name: "MongoDB",
+  //     icon: Mongodb,
+  //   },
   {
     name: "Express",
     icon: Express,
@@ -66,10 +66,10 @@ export const tools = [
     icon: Angular,
   },
 
-  {
-    name: "Python",
-    icon: Python,
-  },
+  //   {
+  //     name: "Python",
+  //     icon: Python,
+  //   },
 ];
 
 export const skills = [
@@ -79,14 +79,24 @@ export const skills = [
     icon: Reactjs,
   },
   {
+    name: "NextJs",
+    value: 97,
+    icon: Nextjs,
+  },
+  {
+    name: "Angular",
+    value: 95,
+    icon: Angular,
+  },
+  {
     name: "NodeJs",
     value: 96,
     icon: Nodejs,
   },
   {
-    name: "NextJs",
-    value: 97,
-    icon: Nextjs,
+    name: "Express",
+    value: 95,
+    icon: Express,
   },
   {
     name: "MongoDB",
@@ -118,11 +128,8 @@ export const skills = [
     value: 90,
     icon: Laravel,
   },
-  {
-    name: "Angular",
-    value: 95,
-    icon: Angular,
-  },
+
+  {},
 ];
 
 export const projects = [
