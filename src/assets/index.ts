@@ -20,7 +20,7 @@ import ProfileImage from "./profile.png";
 
 import PortfolioImage from "./Projects/portfolio.png";
 import BookmarkManagerImage from "./Projects/bookmark-manager.png";
-import AddressBookImage from "./Projects/address-book.png";
+import AddressBookImage from "./Projects/Address-book.png";
 import ImageGalleryImage from "./Projects/image-gallery.png";
 
 // Define types for the imported images if needed
