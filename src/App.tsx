@@ -6,6 +6,7 @@ import Works from "./components/Works";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState<boolean>(true);
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -54,6 +55,9 @@ const App: React.FC = () => {
         >
           <Projects />
         </section>
+        <div className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c] ">
+          <Footer />
+        </div>
       </div>
     </div>
   );
