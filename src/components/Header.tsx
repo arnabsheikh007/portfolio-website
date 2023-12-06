@@ -1,3 +1,4 @@
+import { TypeAnimation } from "react-type-animation";
 import {
   Angular,
   Laravel,
@@ -7,6 +8,8 @@ import {
   Reactjs,
   Redux,
 } from "../assets";
+import { ImFilePdf } from "react-icons/im";
+import { SiGithub } from "react-icons/si";
 const Header: React.FC = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-4 md:px-10 gap-10 2xl:gap-20 py-20">
@@ -27,7 +30,19 @@ const Header: React.FC = () => {
           </h1>
           <div className="flex items-center justify-center text-white shadow-lg bg-blue-800 dark:bg-[#224cff10] dark:text-[#224cff] rounded-full">
             <p className="text-3xl 2xl:text-5xl font-bold px-5 py-2 pb-2 text-center">
-              Software Engineer
+              <TypeAnimation
+                sequence={[
+                  "Software Engineer",
+                  1000,
+                  "Competitive Programmer",
+                  1000,
+                  "Web Developer",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
             </p>
           </div>
         </div>
@@ -44,13 +59,25 @@ const Header: React.FC = () => {
         </p>
 
         <div className="mt-10 flex gap-10">
-          <button className="bg-orange-700 text-lg text-white font-semibold rounded-md py-3 px-5">
+          <a
+            href="#contact"
+            className="bg-orange-700 text-lg text-white font-semibold rounded-md py-3 px-5 cursor-pointer hover:scale-110 ease-in-out duration-300"
+          >
             Hire Me
-          </button>
-          <a href="#projects">
-            <button className="text-lg text-white fonnt-semibold rounded-md py-3 px-5 bg-black dark:bg-[#224cff10]">
-              Projects
-            </button>
+          </a>
+          <a
+            href="https://github.com/arnabsheikh007"
+            className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#181441] text-white cursor-pointer hover:scale-110 ease-in-out duration-300"
+          >
+            <SiGithub size={14} />
+            Github
+          </a>
+          <a
+            href="https://drive.google.com/file/d/12dggwx15-jgnP0Pb1gt4DNozahHt9-UH/view?usp=sharing"
+            className="flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#181441] text-white cursor-pointer hover:scale-110 ease-in-out duration-300"
+          >
+            <ImFilePdf size={14} />
+            Resume
           </a>
         </div>
       </div>

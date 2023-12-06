@@ -15,6 +15,8 @@ import CSS3Image from "./css3.svg";
 import HTML5Image from "./html.svg";
 import JavascriptImage from "./javascript.svg";
 import PythonImage from "./python.svg";
+import CppImage from "./cpp.svg";
+import CSharpImage from "./c-sharp.svg";
 
 import ProfileImage from "./profile.png";
 
@@ -42,6 +44,8 @@ export const CSS3: ImageType = CSS3Image;
 export const HTML5: ImageType = HTML5Image;
 export const Javascript: ImageType = JavascriptImage;
 export const Python: ImageType = PythonImage;
+export const Cpp: ImageType = CppImage;
+export const CSharp: ImageType = CSharpImage;
 
 export const Profile: ImageType = ProfileImage;
 

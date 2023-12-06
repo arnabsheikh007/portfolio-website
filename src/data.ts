@@ -15,6 +15,8 @@ import {
   ImageGallery,
   AddressBook,
   BookmarkManager,
+  Cpp,
+  CSharp,
 } from "./assets";
 
 export const CPStats = [
@@ -114,6 +116,16 @@ export const skills = [
     icon: HTML5,
   },
   {
+    name: "C++",
+    value: 99,
+    icon: Cpp,
+  },
+  {
+    name: "C#",
+    value: 99,
+    icon: CSharp,
+  },
+  {
     name: "JavaScript",
     value: 88,
     icon: Javascript,
@@ -127,9 +139,7 @@ export const skills = [
     name: "Laravel",
     value: 90,
     icon: Laravel,
-  },
-
-  {},
+  }
 ];
 
 export const projects = [
@@ -164,10 +174,11 @@ export const projects = [
 ];
 
 export const softskills = [
+  "Teamwork",
+  "Leadership",
   "Time management",
   "Communication",
-  "Empathy",
-  "Teamwork",
+  "Adaptability",
   "Helpfulness",
   "Creativity",
   "Self-learning",
